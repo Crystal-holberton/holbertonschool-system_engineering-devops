@@ -1,0 +1,3 @@
+# Infrastructure Explained
+## For every additional element, why you are adding it:
+Added 1 server to improve load handling and redundancy, and provides each server component with dedicated resources. Added another load-balancer to make a cluster. Creates a HA (High Availability) environment so if one load-balancer fails the traffic can still be managed. Splitting components to seperate servers for enhancing security, manageability and performance.
